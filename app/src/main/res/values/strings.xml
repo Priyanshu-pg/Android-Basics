@@ -2,4 +2,11 @@
     <string name="app_name">LoginPage</string>
     <string name="username_hint">Enter your username</string>
     <string name="password_hint">Enter your password</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_login">Login</string>
+    <string name="error_missing_username">Enter username</string>
+    <string name="error_missing_password">Enter password</string>
+    <string name="error_username_exists">Username Already Exists</string>
+    <string name="error_invalid_password">Wrong password</string>
+    <string name="error_invalid_username">Invalid Username</string>
 </resources>

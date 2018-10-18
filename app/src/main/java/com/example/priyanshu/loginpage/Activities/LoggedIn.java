@@ -1,7 +1,9 @@
-package com.example.priyanshu.loginpage;
+package com.example.priyanshu.loginpage.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.priyanshu.loginpage.R;
 
 public class LoggedIn extends AppCompatActivity {
 
