@@ -97,7 +97,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     
     public boolean areCredentialsValid(String username, String password){
         //array of coulmns to fetch
-        String[] coulmns = {
+        String[] columns = {
                 COLUMN_USER_ID
         };
 
@@ -111,7 +111,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
         //query user table with condition
         Cursor cursor = db.query(TABLE_USER,
-                coulmns,
+                columns,
                 selection,
                 selectionArgs,
                 null,
