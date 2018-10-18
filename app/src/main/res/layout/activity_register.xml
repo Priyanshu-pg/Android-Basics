@@ -74,7 +74,7 @@
 
 
         <android.support.v7.widget.AppCompatButton
-            android:id="@+id/button_login"
+            android:id="@+id/appCompatButtonRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -85,7 +85,7 @@
             android:textSize="16sp" />
 
         <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/text_link_register"
+            android:id="@+id/appCompatTextViewLoginLink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

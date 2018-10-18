@@ -104,7 +104,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         SQLiteDatabase db = this.getReadableDatabase();
 
         //selection criteria
-        String selection = COLUMN_USER_NAME + " = ?";
+        String selection = COLUMN_USER_NAME + " = ?"+ " AND " + COLUMN_USER_PASSWORD + " = ?";
 
         //selection argument
         String[] selectionArgs = {username, password};
