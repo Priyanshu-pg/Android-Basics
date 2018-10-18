@@ -6,6 +6,20 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
     </style>
 
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+
+
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">#e34b1c</item>
+        <item name="colorControlActivated">#e34b1c</item>
+    </style>
 </resources>
